@@ -1,0 +1,163 @@
+<!DOCTYPE html><html lang="zh-CN" data-theme="light"><head><meta charset="UTF-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width, initial-scale=1.0,viewport-fit=cover"><title>Kamila's Blog - My Personal Blog</title><meta name="author" content="Kamila Wang"><meta name="copyright" content="Kamila Wang"><meta name="format-detection" content="telephone=no"><meta name="theme-color" content="#ffffff"><meta name="description" content="Life is a journey, not a destination">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Kamila&#39;s Blog">
+<meta property="og:url" content="http://withy.cc/index.html">
+<meta property="og:site_name" content="Kamila&#39;s Blog">
+<meta property="og:description" content="Life is a journey, not a destination">
+<meta property="og:locale" content="zh_CN">
+<meta property="og:image" content="http://withy.cc/img/avatar.png">
+<meta property="article:author" content="Kamila Wang">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="http://withy.cc/img/avatar.png"><link rel="shortcut icon" href="/img/favicon.png"><link rel="canonical" href="http://withy.cc/index.html"><link rel="preconnect" href="//cdn.jsdelivr.net"/><link rel="preconnect" href="//busuanzi.ibruce.info"/><link rel="stylesheet" href="/css/index.css?v=4.12.0"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.5.1/css/all.min.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0.32/dist/fancybox/fancybox.min.css" media="print" onload="this.media='all'"><script>const GLOBAL_CONFIG = {
+  root: '/',
+  algolia: undefined,
+  localSearch: undefined,
+  translate: undefined,
+  noticeOutdate: undefined,
+  highlight: {"plugin":"highlight.js","highlightCopy":true,"highlightLang":true,"highlightHeightLimit":false},
+  copy: {
+    success: '复制成功',
+    error: '复制错误',
+    noSupport: '浏览器不支持'
+  },
+  relativeDate: {
+    homepage: false,
+    post: false
+  },
+  runtime: '',
+  dateSuffix: {
+    just: '刚刚',
+    min: '分钟前',
+    hour: '小时前',
+    day: '天前',
+    month: '个月前'
+  },
+  copyright: undefined,
+  lightbox: 'fancybox',
+  Snackbar: undefined,
+  infinitegrid: {
+    js: 'https://cdn.jsdelivr.net/npm/@egjs/infinitegrid@4.11.0/dist/infinitegrid.min.js',
+    buttonText: '加载更多'
+  },
+  isPhotoFigcaption: false,
+  islazyload: false,
+  isAnchor: false,
+  percent: {
+    toc: true,
+    rightside: false,
+  },
+  autoDarkmode: false
+}</script><script id="config-diff">var GLOBAL_CONFIG_SITE = {
+  title: 'Kamila\'s Blog',
+  isPost: false,
+  isHome: true,
+  isHighlightShrink: false,
+  isToc: false,
+  postUpdate: '2024-02-17 00:21:07'
+}</script><script>(win=>{
+      win.saveToLocal = {
+        set: (key, value, ttl) => {
+          if (ttl === 0) return
+          const now = Date.now()
+          const expiry = now + ttl * 86400000
+          const item = {
+            value,
+            expiry
+          }
+          localStorage.setItem(key, JSON.stringify(item))
+        },
+      
+        get: key => {
+          const itemStr = localStorage.getItem(key)
+      
+          if (!itemStr) {
+            return undefined
+          }
+          const item = JSON.parse(itemStr)
+          const now = Date.now()
+      
+          if (now > item.expiry) {
+            localStorage.removeItem(key)
+            return undefined
+          }
+          return item.value
+        }
+      }
+    
+      win.getScript = (url, attr = {}) => new Promise((resolve, reject) => {
+        const script = document.createElement('script')
+        script.src = url
+        script.async = true
+        script.onerror = reject
+        script.onload = script.onreadystatechange = function() {
+          const loadState = this.readyState
+          if (loadState && loadState !== 'loaded' && loadState !== 'complete') return
+          script.onload = script.onreadystatechange = null
+          resolve()
+        }
+
+        Object.keys(attr).forEach(key => {
+          script.setAttribute(key, attr[key])
+        })
+
+        document.head.appendChild(script)
+      })
+    
+      win.getCSS = (url, id = false) => new Promise((resolve, reject) => {
+        const link = document.createElement('link')
+        link.rel = 'stylesheet'
+        link.href = url
+        if (id) link.id = id
+        link.onerror = reject
+        link.onload = link.onreadystatechange = function() {
+          const loadState = this.readyState
+          if (loadState && loadState !== 'loaded' && loadState !== 'complete') return
+          link.onload = link.onreadystatechange = null
+          resolve()
+        }
+        document.head.appendChild(link)
+      })
+    
+      win.activateDarkMode = () => {
+        document.documentElement.setAttribute('data-theme', 'dark')
+        if (document.querySelector('meta[name="theme-color"]') !== null) {
+          document.querySelector('meta[name="theme-color"]').setAttribute('content', '#0d0d0d')
+        }
+      }
+      win.activateLightMode = () => {
+        document.documentElement.setAttribute('data-theme', 'light')
+        if (document.querySelector('meta[name="theme-color"]') !== null) {
+          document.querySelector('meta[name="theme-color"]').setAttribute('content', '#ffffff')
+        }
+      }
+      const t = saveToLocal.get('theme')
+    
+        if (t === 'dark') activateDarkMode()
+        else if (t === 'light') activateLightMode()
+      
+      const asideStatus = saveToLocal.get('aside-status')
+      if (asideStatus !== undefined) {
+        if (asideStatus === 'hide') {
+          document.documentElement.classList.add('hide-aside')
+        } else {
+          document.documentElement.classList.remove('hide-aside')
+        }
+      }
+    
+      const detectApple = () => {
+        if(/iPad|iPhone|iPod|Macintosh/.test(navigator.userAgent)){
+          document.documentElement.classList.add('apple')
+        }
+      }
+      detectApple()
+    })(window)</script><meta name="generator" content="Hexo 6.3.0"></head><body><div id="sidebar"><div id="menu-mask"></div><div id="sidebar-menus"><div class="avatar-img is-center"><img src="/img/avatar.png" onerror="onerror=null;src='/img/friend_404.gif'" alt="avatar"/></div><div class="sidebar-site-data site-data is-center"><a href="/archives/"><div class="headline">文章</div><div class="length-num">5</div></a><a href="/tags/"><div class="headline">标签</div><div class="length-num">4</div></a><a href="/categories/"><div class="headline">分类</div><div class="length-num">4</div></a></div><hr class="custom-hr"/></div></div><div class="page" id="body-wrap"><header class="full_page" id="page-header"><nav id="nav"><span id="blog-info"><a href="/" title="Kamila's Blog"><span class="site-name">Kamila's Blog</span></a></span><div id="menus"><div id="toggle-menu"><a class="site-page" href="javascript:void(0);"><i class="fas fa-bars fa-fw"></i></a></div></div></nav><div id="site-info"><h1 id="site-title">Kamila's Blog</h1></div><div id="scroll-down"><i class="fas fa-angle-down scroll-down-effects"></i></div></header><main class="layout" id="content-inner"><div class="recent-posts" id="recent-posts"><div class="recent-post-item"><div class="recent-post-info no-cover"><a class="article-title" href="/2024/02/16/monuments-on-the-long-march-road/" title="《长征路上的丰碑》">《长征路上的丰碑》</a><div class="article-meta-wrap"><span class="post-meta-date"><i class="far fa-calendar-alt"></i><span class="article-meta-label">发表于</span><time datetime="2024-02-16T13:20:39.000Z" title="发表于 2024-02-16 21:20:39">2024-02-16</time></span></div><div class="content">“红军不怕远征难，万水千山只等闲秋时节，路过窗前，书声朗朗，毛泽东的《七律·长征》久久回响在耳畔，使我的内心久久不能平息长征，是一种百折不执的精神，是一种坚毅高尚的精神，是一种视死如归的精神–这，就是流淌在革命先烈血夜里的长征精神”。而毛泽东同志所作的《七律，长征》怡好诠释了这种精神战士们勇越五龄，翻越鸟蒙山，巧度金沙江，强演大渡河，飞夺泸定桥，喜越大岷山…一路上，长征两万五于里，红军，就是长征里程上屹立的丰磅!脑海里始终浮现着那平凡但发出光芒的书页那是一个令人难忘的故事:红军队伍在冰天雪地里艰难地前进，正在这漫长的旅途缓慢移动时，前面传来一个需耗-一名老战士被冻僵了，将军本想呵斥军需处长为何不给老战士添衣，可最后得知，牺牲的老战士就是军需处长…这个故事叫《丰碑以是的，是的，牺性的老战土是丰碑，其他战土也是丰牌，那些生命被定格在长征路上的英雄们啊，都是丰碑)
+长征路上，红军战士们创造了无救个惊人的奇迹。泸定桥之战中，表有“天险”之称的大渡河光是看看就让人心寒，可是战土们将生死置之度外，冒死建立奇功，打了一个大胜仗，这样的丰碑，这样的精神，多么令人震撼啊!红军战土明知山有虎，偏向虎山行。 ...</div></div></div><div class="recent-post-item"><div class="recent-post-info no-cover"><a class="article-title" href="/2024/02/16/salute-ordinary-you/" title="《致敬平凡的你》">《致敬平凡的你》</a><div class="article-meta-wrap"><span class="post-meta-date"><i class="far fa-calendar-alt"></i><span class="article-meta-label">发表于</span><time datetime="2024-02-16T13:19:36.000Z" title="发表于 2024-02-16 21:19:36">2024-02-16</time></span></div><div class="content">你平凡，却又不凡，你动，却又伟大，你用辛勤的汗水打造-条美丽的街道:你国高当的品格先净这座城市。我向你致敬，致敬平凡的你。每天早晨六点半，我都要路过一条老街，那是我上学的必经之路+旧园街。透过车窗总是有一个瘦小的橘色身影在人群与小贩的摊子间穿梭，不厌其烦地拾起小贩们遗留的果皮菜叶扫去人们技下的水瓶烟蒂，不一会儿，老街便焕了新颜，几年如-日，风雨无固
+默默无闻不张扬，勤勤尽恩扫一方我向你致敬，致敬平凡的你。周日，清早上八点，急匆匆地起床，吃饭，出门。外面的-切都灰蒙蒙的:这座城市都被大零笼置我一路狂奔向车站，耳边只有呼呼的风声，眼前只有被几纷碎发遮着的，渺小的车站。也许是剧烈的颠簸和灰暗的景象使我的耳机感到无趣，于是乎它他便调皮地跳出包外与地面来了个亲密接触，而一心看急赶车的我却对此浑然不知。终于赶到车站，漫长的等待驱使着我的手伸向包里…啊!我的耳机呢?这冲我袭来的突发事件犹如一道惊雷直直地辟向我心中的一片晴空，我慌乱地寻找这丢失的宝物直哭我把包掏了个底朝天，敬落-地的物品里华见他身影的那-刻，我彻底绝望了，转视后方，两来刺眼的光柱闻入我的视线-车，来了。万分无助之际，你来了，像一道
+和 ...</div></div></div><div class="recent-post-item"><div class="recent-post-info no-cover"><a class="article-title" href="/2024/02/16/my-teacher/" title="《我的老师》">《我的老师》</a><div class="article-meta-wrap"><span class="post-meta-date"><i class="far fa-calendar-alt"></i><span class="article-meta-label">发表于</span><time datetime="2024-02-16T13:18:16.000Z" title="发表于 2024-02-16 21:18:16">2024-02-16</time></span><span class="article-meta"><span class="article-meta-separator">|</span><i class="fas fa-inbox"></i><a class="article-meta__categories" href="/categories/%E9%9A%8F%E7%AC%94/">随笔</a><i class="fas fa-angle-right article-meta-link"></i><a class="article-meta__categories" href="/categories/%E9%9A%8F%E7%AC%94/%E6%95%99%E5%B8%88%E8%8A%82/">教师节</a><i class="fas fa-angle-right article-meta-link"></i><a class="article-meta__categories" href="/categories/%E9%9A%8F%E7%AC%94/%E6%95%99%E5%B8%88%E8%8A%82/2024/">2024</a></span></div><div class="content">初见您，是在一个布满鸟云，下着小雨的早上。是八月二十八日，初一新生的召集日，我第一次迈入初中的大门。坐在大厅的后排，风透过窗户吹入屋里，湿的空气让我不禁感到忐忑与迷芒。虽然这里与小学只相隔一条走廊，可现在的我，却好像被置身于千里之外，孤独又不安。分班的名单念完了大半，却还没有我的名字，二十分钟过得好像二十年一样漫长。“七年五班-王隽妍！”我猛地抬头，抓起书包，冲向门外，也许是不经意的一瞥，我看见了一个拿着话筒的身影：一袭青色的衣裙，衬出一头栗褐色的长发，直坠腰际，在灯光的照射下，有丝绸般的光泽，像暴布般的顺滑。您来了，走在我身旁，我偷偷望着您，年轻而白皙的脸上有不凡的气质；光洁的额头下是一双晶莹的笑眼，挺拔的鼻梁下是两瓣樱红的唇。走进教室，黑板上的字，醒目，又吸睛，好奇心牵动我的目光，移到了那里：“梁启超-七年五班”那一刻，我明白，您将伴我三年的人生导师。“同学们好，我是李老师……”，您落落大方的走上讲台，教室里回荡着您清脆的嗓音，言语间，您微微上扬的嘴角与炯炯有神的眼眸中，尽是今日的喜悦与对未来的期许。接着，您迈着轻盈的脚步我身边经过，留下一阵细风，夹杂着樟脑和柑橘散发出的，清新的气 ...</div></div></div><div class="recent-post-item"><div class="recent-post-info no-cover"><a class="article-title" href="/2024/02/16/dalian-autumn/" title="《大连的秋天》">《大连的秋天》</a><div class="article-meta-wrap"><span class="post-meta-date"><i class="far fa-calendar-alt"></i><span class="article-meta-label">发表于</span><time datetime="2024-02-16T13:18:02.000Z" title="发表于 2024-02-16 21:18:02">2024-02-16</time></span><span class="article-meta"><span class="article-meta-separator">|</span><i class="fas fa-inbox"></i><a class="article-meta__categories" href="/categories/%E6%99%AF%E8%89%B2/">景色</a></span></div><div class="content">她，没有春的活泼；她，没有夏的热情；她，也没有冬的宁静。但她非同凡响，用金黄的色彩描绘出美丽的图画，用累累的硕果书写出丰收的喜悦；她，是大连的秋天!大连的秋天是莫奈的油画，远远望去树上的枫叶，银杏叶，斑斑驳驳的。湛蓝的天空上，纯净无暇没有一点云丝，太阳高高挂在天上，阳光打在树叶上，风里夹杂着凉意，吹动树梢，树上泛起了金色的浪花，“沙沙”的声音过后，几片黄时打着旋，从树上蹁跹而下，轻盈的像位舞者，无声无息地卧在地上，为大道铺上了一层别致的地毯。“一道残阳铺水中，半江瑟瑟半江红。”大连的秋天白居易的诗歌，秋天傍晚，站在湖边，你就有幸欣赏到这样美好的景色。秋风吹过，兀立于湖边，这时的天，已被晚霞涂上一层七色的颜料，夕阳要落下了，将自己橙黄的最后一丝余晖斑驳地洒在湖面上。秋天的夕阳，是温婉的，不同于正午时的艳阳炽烤着大地，更不同于清晨的朝阳冷清又安静，当然也不同于夜晚时太阳，她娇羞地用手帕遮住了脸庞……夕阳，是独特的。清亮的湖水在她的衬托下，竟有一丝轻奢。轻风掠过，湖水不再平静，而是泛起了红亮亮地涟漪，那般美丽；青色的高山也被周围温暖的光线镶上了一圈金边。这时，天空也受到渲染，又为彩霞增添了一 ...</div></div></div><div class="recent-post-item"><div class="recent-post-info no-cover"><a class="article-title" href="/2016/08/11/thank-you-my-friend/" title="《谢谢你，我的朋友》">《谢谢你，我的朋友》</a><div class="article-meta-wrap"><span class="post-meta-date"><i class="far fa-calendar-alt"></i><span class="article-meta-label">发表于</span><time datetime="2016-08-11T08:04:28.000Z" title="发表于 2016-08-11 16:04:28">2016-08-11</time></span><span class="article-meta"><span class="article-meta-separator">|</span><i class="fas fa-inbox"></i><a class="article-meta__categories" href="/categories/%E9%9A%8F%E7%AC%94/">随笔</a></span></div><div class="content">流年似水，繁花初绽，岁月流转，时光更迭。我们用美好的过往谱写了友谊的乐章，让它在回忆的阡陌上独自回响，谢谢你，我的朋友。你，开朗幽默，治泼向上；我，胆小懦弱，内敛沉默。截然相反的我们在八年前素不相识，可命运的齿轮不停地转动，一寸，一寸……终于我们相识，相识在那堂舞蹈课上。二零一五年，秋。小时的我很安静，可犹爱舞蹈，于是我来到了那个班级，推门而入，紧张的氛围与陌生的环境让我惴惴不安，看着一张张涨红的小脸，听着一声声哀哀的啜泣，我心头一颤，大滴的泪水零落衣襟，模糊的视线中出现了一张小脸，我擦了擦泪水，映入眼帘的是一张肉嘟的小圆脸，淡淡的眉与眯眯的弯月眼，小巧的鼻子与精致的唇。她唇齿轻启，眉眼间尽是友善与阳光：“你别哭，别哭呀，那些压腿的是大孩子，我们不用压腿的……嗯，你吃不吃糖？”她转身向后，掏出一支棒棒糖，可乐味儿的，我没吃过。“吃吧，很好吃，是甜甜的。”看着我傻乎乎的样子，她便用胖乎乎的小手轻轻地拔开糖纸，放进了我的嘴里。嗯！糖果的甜从舌尖融化，缓缓流入心间；糖果的甜冲去了恐惧的苦涩，包裹着友谊滑过味蕾。它的甜是我未曾尝过的甜。就这样，糖果见证了我们的友谊。之后，我们慢慢长大，从小不点 ...</div></div></div><nav id="pagination"><div class="pagination"><span class="page-number current">1</span></div></nav></div><div class="aside-content" id="aside-content"><div class="card-widget card-info"><div class="is-center"><div class="avatar-img"><img src="/img/avatar.png" onerror="this.onerror=null;this.src='/img/friend_404.gif'" alt="avatar"/></div><div class="author-info__name">Kamila Wang</div><div class="author-info__description">Life is a journey, not a destination</div></div><div class="card-info-data site-data is-center"><a href="/archives/"><div class="headline">文章</div><div class="length-num">5</div></a><a href="/tags/"><div class="headline">标签</div><div class="length-num">4</div></a><a href="/categories/"><div class="headline">分类</div><div class="length-num">4</div></a></div></div><div class="card-widget card-announcement"><div class="item-headline"><i class="fas fa-bullhorn fa-shake"></i><span>公告</span></div><div class="announcement_content">This is my Blog</div></div><div class="sticky_layout"><div class="card-widget card-recent-post"><div class="item-headline"><i class="fas fa-history"></i><span>最新文章</span></div><div class="aside-list"><div class="aside-list-item no-cover"><div class="content"><a class="title" href="/2024/02/16/monuments-on-the-long-march-road/" title="《长征路上的丰碑》">《长征路上的丰碑》</a><time datetime="2024-02-16T13:20:39.000Z" title="发表于 2024-02-16 21:20:39">2024-02-16</time></div></div><div class="aside-list-item no-cover"><div class="content"><a class="title" href="/2024/02/16/salute-ordinary-you/" title="《致敬平凡的你》">《致敬平凡的你》</a><time datetime="2024-02-16T13:19:36.000Z" title="发表于 2024-02-16 21:19:36">2024-02-16</time></div></div><div class="aside-list-item no-cover"><div class="content"><a class="title" href="/2024/02/16/my-teacher/" title="《我的老师》">《我的老师》</a><time datetime="2024-02-16T13:18:16.000Z" title="发表于 2024-02-16 21:18:16">2024-02-16</time></div></div><div class="aside-list-item no-cover"><div class="content"><a class="title" href="/2024/02/16/dalian-autumn/" title="《大连的秋天》">《大连的秋天》</a><time datetime="2024-02-16T13:18:02.000Z" title="发表于 2024-02-16 21:18:02">2024-02-16</time></div></div><div class="aside-list-item no-cover"><div class="content"><a class="title" href="/2016/08/11/thank-you-my-friend/" title="《谢谢你，我的朋友》">《谢谢你，我的朋友》</a><time datetime="2016-08-11T08:04:28.000Z" title="发表于 2016-08-11 16:04:28">2016-08-11</time></div></div></div></div><div class="card-widget card-categories"><div class="item-headline">
+            <i class="fas fa-folder-open"></i>
+            <span>分类</span>
+            
+            </div>
+            <ul class="card-category-list" id="aside-cat-list">
+            <li class="card-category-list-item "><a class="card-category-list-link" href="/categories/%E6%99%AF%E8%89%B2/"><span class="card-category-list-name">景色</span><span class="card-category-list-count">1</span></a></li><li class="card-category-list-item "><a class="card-category-list-link" href="/categories/%E9%9A%8F%E7%AC%94/"><span class="card-category-list-name">随笔</span><span class="card-category-list-count">2</span></a><ul class="card-category-list child"><li class="card-category-list-item "><a class="card-category-list-link" href="/categories/%E9%9A%8F%E7%AC%94/%E6%95%99%E5%B8%88%E8%8A%82/"><span class="card-category-list-name">教师节</span><span class="card-category-list-count">1</span></a><ul class="card-category-list child"><li class="card-category-list-item "><a class="card-category-list-link" href="/categories/%E9%9A%8F%E7%AC%94/%E6%95%99%E5%B8%88%E8%8A%82/2024/"><span class="card-category-list-name">2024</span><span class="card-category-list-count">1</span></a></li></ul></li></ul></li>
+            </ul></div><div class="card-widget card-tags"><div class="item-headline"><i class="fas fa-tags"></i><span>标签</span></div><div class="card-tag-cloud"><a href="/tags/%E9%9A%8F%E7%AC%94/" style="font-size: 1.1em; color: #999">随笔</a> <a href="/tags/%E8%B0%A2%E8%B0%A2%E4%BD%A0%EF%BC%8C%E6%88%91%E7%9A%84%E6%9C%8B%E5%8F%8B/" style="font-size: 1.1em; color: #999">谢谢你，我的朋友</a> <a href="/tags/%E6%95%99%E5%B8%88%E8%8A%82/" style="font-size: 1.1em; color: #999">教师节</a> <a href="/tags/%E6%99%AF%E8%89%B2/" style="font-size: 1.1em; color: #999">景色</a></div></div><div class="card-widget card-archives"><div class="item-headline"><i class="fas fa-archive"></i><span>归档</span></div><ul class="card-archive-list"><li class="card-archive-list-item"><a class="card-archive-list-link" href="/archives/2024/02/"><span class="card-archive-list-date">二月 2024</span><span class="card-archive-list-count">4</span></a></li><li class="card-archive-list-item"><a class="card-archive-list-link" href="/archives/2016/08/"><span class="card-archive-list-date">八月 2016</span><span class="card-archive-list-count">1</span></a></li></ul></div></div></div></main><footer id="footer"><div id="footer-wrap"><div class="copyright">&copy;2020 - 2024 By Kamila Wang</div><div class="framework-info"><span>框架 </span><a target="_blank" rel="noopener" href="https://hexo.io">Hexo</a><span class="footer-separator">|</span><span>主题 </span><a target="_blank" rel="noopener" href="https://github.com/jerryc127/hexo-theme-butterfly">Butterfly</a></div></div></footer></div><div id="rightside"><div id="rightside-config-hide"><button id="darkmode" type="button" title="浅色和深色模式转换"><i class="fas fa-adjust"></i></button><button id="hide-aside-btn" type="button" title="单栏和双栏切换"><i class="fas fa-arrows-alt-h"></i></button></div><div id="rightside-config-show"><button id="rightside-config" type="button" title="设置"><i class="fas fa-cog fa-spin"></i></button><button id="go-up" type="button" title="回到顶部"><span class="scroll-percent"></span><i class="fas fa-arrow-up"></i></button></div></div><div><script src="/js/utils.js?v=4.12.0"></script><script src="/js/main.js?v=4.12.0"></script><script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0.32/dist/fancybox/fancybox.umd.min.js"></script><div class="js-pjax"></div><script async data-pjax src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script></div></body></html>
